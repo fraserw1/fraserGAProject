@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 5vh;
+  margin: 0;
+  top: 0;
+  background-color: #5a5353;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home,
+.logo,
+.company-name {
+  width: 30%;
+}
+
+.home {
+  padding-left: 25px;
+}
+
+.fa-house {
+  color: white;
+  width: 25px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 20px;
+}
+
+.company-name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 25px;
+  color: white;
+}
+
+.company-name h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* NEXT SECTION */
+
+.landing {
+  width: 100%;
+  padding: 8vh 0;
+  background-color: rgb(207, 214, 222, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.list-link {
+  margin-top: 20px;
+}
+
+.list-link a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: clamp(14px, 3vw, 20px);
+}
+
+.teams {
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.teams li {
+  cursor: pointer;
+}
+
+.teams ul {
+  width: 25%;
+  list-style-type: none;
+  padding-inline-start: 0;
+  font-size: clamp(12px, 3vw, 18px);
+}
+
+.teams div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 6vh 0;
+}
+
+.teams h2 {
+  width: 70%;
+  max-width: 600px;
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.football h2 {
+  background-image: url(/images/football-sport.jpg);
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.rugby h2 {
+  background-image: url(/images/rugby-sport.jpg);
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.other h2 {
+  background-image: url(/images/other-sport.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* MODAL */
+
+.modal-content {
+  background: #bdc3c7;
+}
+
+.modal-body h5 {
+  background-color: rgb(219, 226, 235);
+  width: 95%;
+  height: 60vh;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-body h4 {
+  font-size: 18px;
+}
+
+.modal-body input {
+  background-color: inherit;
+  border: 0;
+  text-align: center;
+  padding: 0;
+  line-height: 0;
+}
+
+.btn-primary {
+  background-color: #efefef;
+  color: black;
+  border: 1px solid black;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-focus-shadow-rgb: black;
+  --bs-btn-active-border-color: black;
+  --bs-btn-disabled-border-color: black;
+  --bs-btn-bg: inherit;
+  --bs-btn-hover-color: inherit;
+  --bs-btn-hover-bg: inherit;
+  --bs-btn-active-color: inherit;
+  --bs-btn-active-bg: inherit;
+  --bs-btn-disabled-color: inherit;
+  --bs-btn-disabled-bg: inherit;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  color: inherit;
+  background-color: #efefef;
+  border: black;
+}

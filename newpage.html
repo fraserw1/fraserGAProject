@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>new page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/newpage.css">
+    <link rel="icon" type="images/favicon-logo" href="/images/favicon-logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b3698e0a9a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="home">
+        <a href="/index.html"><i class="fa-solid fa-house"></i></a>
+    </div>
+    <div class="logo">
+        <img src="/images/logo white small.png" alt="Fanbase">
+    </div>
+    <div class="company-name">
+      <h2>Fanbase</h2>
+    </div>
+    </header>
+
+    <section class="landing">
+      <h1 id="welcome"></h1>
+      <article class="list-link">
+        <a href="#football-card"><i class="fa-solid fa-futbol"></i>Football</a>
+        <a href="#rugby-card"><i class="fa-solid fa-football"></i> Rugby</a>
+        <a href="#other-card"><i class="fa-solid fa-person-running"></i> Other</a>
+      </article>
+      
+      <article class="teams">
+        <div class="football" id="football-card">
+          <ul id="football-list">
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="A Team">A Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="B Team">B Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="C Team">C Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="D Team">D Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="E Team">E Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="F Team">F Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="G Team">G Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="H Team">H Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="I Team">I Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="J Team">J Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="K Team">K Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="L Team">L Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="M Team">M Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="N Team">N Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="O Team">O Team</li>
+          </ul>
+          <h2>Football</h2>
+        </div>
+        <hr>
+        <div class="rugby" id="rugby-card">
+          <ul id="rugby-list">
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="P Team">P Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Q Team">Q Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="R Team">R Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="S Team">S Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="T Team">T Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="U Team">U Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="V Team">V Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="W Team">W Team</li>
+          </ul>
+          <h2>Rugby</h2>
+        </div>
+        <hr>
+        <div class="other" id="other-card">
+          <ul id="other-list">
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="X Team">X Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Y Team">Y Team</li>
+            <li data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Z Team">Z Team</li>
+          </ul>
+          <h2>Other</h2>
+        </div>
+      </article>
+    </section>
+
+    <aside>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="exampleModalLabel">Football</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                  <h4>Next Fixture</h4>
+                  <h5><input type="text" class="form-control" id="recipient-name">
+                    v<br>ABC United</h5>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Buy Ticket</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/newpage.js"></script>
+  </body>
+</html>
